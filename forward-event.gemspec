@@ -1,22 +1,22 @@
 # frozen_string_literal: true
 
-require_relative "lib/forward/event/version"
+require_relative "lib/forward_event/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "forward-event"
-  spec.version       = Forward::Event::VERSION
+  spec.version       = ForwardEvent::VERSION
   spec.authors       = ["Brian Wherry"]
   spec.email         = ["brian.wherry@equilaw.uk.com"]
 
-  spec.summary       = 'Parses DPS FE (Forward Task Event) commands'
-  spec.description   = File.read('./README.md')
-  spec.homepage      = 'https://github.com/Equilaw/forward-event'
+  spec.summary       = "Parses DPS FE (Forward Task Event) commands"
+  spec.description   = File.read("./README.md")
+  spec.homepage      = "https://github.com/Equilaw/forward-event"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = 'https://github.com/Equilaw/forward-event'
-  spec.metadata["changelog_uri"] = 'https://github.com/Equilaw/forward-event/CHANGELOG.md'
+  spec.metadata["source_code_uri"] = "https://github.com/Equilaw/forward-event"
+  spec.metadata["changelog_uri"] = "https://github.com/Equilaw/forward-event/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
